@@ -26,7 +26,7 @@ If you write:
 ```
  > ⚠️ Note that the include statement is not followed by a semicolon (;), and is relative to the file it is used in.
 
-It will 'Include' ```someFile.h```. This mostly just means copy and pasting the contents of it to replace the **Include Statement**.
+It will '**Include**' ```someFile.h```. This mostly just means copying and pasting the contents of it to replace the **Include Statement**.
 
 Also
 ```c++
@@ -41,7 +41,7 @@ Can both be used, but using <> makes it search only in the environment, whilst u
 
 ### 1.3 Comments
 
-You can always append ```//``` anywhere in your code to make a comment. A comment will not be read as code and is very usefull for documenting.
+You can always append ```//``` anywhere in your code to make a comment. A comment will not be read as code and is very useful for documenting.
 E.g.,
 ```c++
 A + 1; // This is a comment
@@ -64,14 +64,14 @@ For now, you should know the following types:
  - **bool**
  - **void**
 
- > Note that the reason std::string is used instead of string is that string is in the namespace std. think of it as some kind of folder, for organization purposes. It will be explained in the next tutorial.
+ > Note that the reason std::string is used instead of string is that string is in the namespace std. Think of it as some kind of folder, for organization purposes. It will be explained in the next tutorial.
 
 Where
 **int** Can hold any full integer,<br>
 **float** Can hold any real number,<br>
-**std::string** Can hold any (ASCII) text but must be included from the string header and<br>
+**std::string** Can hold any (ASCII) text but must be included from the string header<br>
 **char** Can hold a single (ASCII) character<br>
-**bool** Can only be true or false<br>
+**bool** Can only be true or false, and lastly, <br>
 **void** Essentially means that there is nothing.
 
  > ⚠️ Note that there are some limitations though, like that the typical int can only hold 2^32 numbers (2^16 negative and 2^16 - 1 positive numbers to be exact)
@@ -97,7 +97,7 @@ myName = "Thomas"; // This assigns "Thomas" to myName. Note that this is called 
 
 If we dissect that code, we will first create a variable with the **type** being **std::string**
 Give it the **name**, **myName** and then **set** it to **"Thomas"**
- > ⚠️ Note that "Thomas" is surrounded by quotation marks ("") This is because a string (text) in cpp must always be written like that if not contained in a variable. Essentially what it will do is create a temporary object (r-value) of type const char* and set it to "Thomas."
+ > ⚠️ Note that "Thomas" is surrounded by quotation marks ("") This is because a string (text) in cpp must always be written like that if not contained in a variable. Essentially, what it will do is create a temporary object (r-value) of type const char* and set it to "Thomas."
 
 ### 2.3 operators
 
