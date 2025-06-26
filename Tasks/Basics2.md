@@ -304,7 +304,7 @@ Your task is to:
  - Set the first int to 18 and the second to 2^16
  - Return the second int of your class.
 
- > Note that to raise any number x to any power y you need to include <math> and use pow(x, y)
+ > Note that to raise any number x to any power y, you need to include <math> and use pow(x, y)
 
  > Read the challenge first before running your script.
 
@@ -313,4 +313,4 @@ Your task is to:
 Predict the output of your program (The return code)
 
 ## 5. Tease
-In the next tutorial you will get the last few basic pieces of knowledge. Loops, conditionals, and printf. Then you will finally be able to write Turing Complete.
+In the next tutorial you will get the last few basic pieces of knowledge. Loops (With a bit of lists), conditionals, and printf. Then you will finally be able to write Turing Complete.
